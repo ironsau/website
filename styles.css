@@ -1,0 +1,63 @@
+body {
+    background: #000;
+}
+
+.container,
+h1,
+img,
+p {
+    display: block;
+}
+
+.image-container {
+    position: relative;
+    top: 0%;
+    max-width: 767px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1,
+p {
+    text-align: center;
+    color: white;
+}
+
+p {
+    font-size: 150%;
+}
+
+#backdrop {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.icon {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    width: 15%;
+}
+
+/* Wide screen */
+
+@media (min-width: 768px) {
+    body {
+        background: white;
+    }
+    h1,
+    p {
+        color: black;
+        position: absolute;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    }
+    h1 {
+        top: 5%;
+    }
+    p {
+        top: 87%;
+    }
+}
