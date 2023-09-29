@@ -1,5 +1,5 @@
 body {
-    background: #000;
+    background: black;
 }
 
 .container,
@@ -33,11 +33,11 @@ p {
     height: auto;
 }
 
-.icon {
+#icon {
     position: absolute;
     top: 3%;
     left: 3%;
-    width: 15%;
+    width: 20%;
 }
 
 /* Wide screen */
