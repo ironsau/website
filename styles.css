@@ -2,16 +2,9 @@ body {
     background: black;
 }
 
-.container,
-h1,
-img,
-p {
-    display: block;
-}
-
 .image-container {
     position: relative;
-    top: 0%;
+    top: 0px;
     max-width: 767px;
     margin-left: auto;
     margin-right: auto;
